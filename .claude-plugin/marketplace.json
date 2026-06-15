@@ -449,6 +449,22 @@
       "homepage": "https://github.com/gemini-cli-extensions/bigquery-data-analytics"
     },
     {
+      "name": "boltz",
+      "description": "Predict structures, screen molecules and proteins, and design binders with Boltz from Claude Code.",
+      "author": {
+        "name": "Boltz"
+      },
+      "category": "development",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/boltz-bio/boltz-api-skills.git",
+        "path": "plugins/boltz",
+        "ref": "main",
+        "sha": "dee5b9962b5edd8cedc7b8405d14261852441d96"
+      },
+      "homepage": "https://boltz.bio"
+    },
+    {
       "name": "box",
       "description": "Work with your Box content directly from Claude Code — search files, organize folders, collaborate with your team, and use Box AI to answer questions, summarize documents, and extract data without leaving your workflow.",
       "category": "productivity",
