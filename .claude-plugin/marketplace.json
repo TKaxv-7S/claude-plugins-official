@@ -2147,7 +2147,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/SAP-samples/hana-cli-claude-plugin.git",
-        "sha": "160ae47efaffea2e1dd9d6877ab9ec49b78542a0"
+        "sha": "abadd0aba32792b6378ed784e9f6d3e5b25dfc2a"
       },
       "homepage": "https://github.com/SAP-samples/hana-cli-claude-plugin"
     },
