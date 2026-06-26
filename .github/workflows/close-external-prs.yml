@@ -37,8 +37,9 @@ jobs:
             // contribution — it adds marketplace.json entries whose source repo ALREADY backs
             // a live plugin here, and changes nothing else. (No maintained allowlist: the set
             // of allowed repos is derived from the live marketplace.) This grants only the
-            // right to open a reviewable PR; the External PR Scope Guard required check and a
-            // maintainer approval still gate the merge.
+            // right to open a reviewable PR; the validate + scan checks and a maintainer
+            // approval still gate the merge (the External PR Scope Guard is advisory signal,
+            // not a required check).
             const result = await evaluate({ github, context });
             if (result.ok && result.added.length > 0) {
               console.log(`In-scope external contribution (adds: ${result.added.join(', ')}) — allowing PR.`);
